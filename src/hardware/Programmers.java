@@ -1,5 +1,7 @@
 package hardware;
 
+import org.junit.Test;
+
 public class Programmers {
 	     static int age;
 	static {
@@ -11,6 +13,15 @@ public class Programmers {
 		static {
 		System.out.println("I love this coding carrier! I want to be a software engineer someday");
 	
+	}
+	
+	@Test
+	public void shouldSentence() {
+		
+	}
+	
+	public void mytest() {
+		
 	}
 
 	public static void main(String[] args) {
